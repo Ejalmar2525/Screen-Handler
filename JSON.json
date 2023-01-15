@@ -1,0 +1,132 @@
+{
+    "title" : " ¡Bienvenido a la pantalla principal! :D " ,
+    "nombre" : " pantallaprincipal " ,
+    "botón" : " principal " ,
+    "contenido" : {
+      "preguntas" : [
+        {
+          "description" : " Escriba el nombre del botón de la función a la que desea acceder " ,
+          "mensaje" : " Seleccione algo válido " ,
+          "nombre" : " respuesta " ,
+          "requerido" : verdadero
+        }
+      ],
+      "Otras pantallas" : [
+        {
+          "título" : " Crear una persona " ,
+          "botón" : {
+            "nombre" : " crear " ,
+            "manejador" : " CrearPersona " ,
+            "pantalla de llamada" : " crear pantalla "
+          }
+        },
+        {
+          "title" : " Ver todas las personas " ,
+          "botón" : {
+            "nombre" : " leer " ,
+            "manejador" : " PersonaLectura " ,
+            "pantalla de llamada" : " pantalla de lectura "
+          }
+        },
+        {
+          "título" : " Actualizar una persona " ,
+          "botón" : {
+            "nombre" : " actualizar " ,
+            "manejador" : " PersonaActualizada " ,
+            "pantalla de llamada" : " pantalla de actualización "
+          }
+        },
+        {
+          "título" : " eliminar una persona " ,
+          "botón" : {
+            "nombre" : " eliminar " ,
+            "controlador" : " Eliminar Persona " ,
+            "callScreen" : " eliminarScreen "
+          }
+        },
+        {
+          "título" : " Salir " ,
+          "botón" : { "nombre" : " ex " , "controlador" : " salir " , "callScreen" : " " }
+        }
+      ]
+    }
+  },
+  {
+    "título" : " Añadir una nueva persona " ,
+    "nombre" : " crear pantalla " ,
+    "botón" : " crear " ,
+    "contenido" : {
+      "preguntas" : [
+        {
+          "descripción" : " Introduce el nombre " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " nombre de usuario " ,
+          "requerido" : verdadero
+        },
+        {
+          "description" : " Introduzca el apellido " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " apellido " ,
+          "requerido" : verdadero
+        },
+        {
+          "description" : " Introduce tu edad " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " edad " ,
+          "requerido" : verdadero
+        },
+        {
+          "description" : " Introduce tu email " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " correo electrónico " ,
+          "requerido" : verdadero
+        }
+      ]
+    }
+  },
+  {
+    "título" : " Lista de personas " ,
+    "nombre" : " leerPantalla " ,
+    "botón" : " leer " ,
+    "contenido" : {
+      "preguntas" : [
+        {
+          "description" : " \n\n 1) Ver todos los clientes \n\n 2) Buscar por ID " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " respuestaLeer " ,
+          "requerido" : verdadero
+        }
+      ]
+    }
+  },
+  {
+    "título" : " Actualizar una persona " ,
+    "nombre" : " upScreen " ,
+    "botón" : " actualizar " ,
+    "contenido" : {
+      "preguntas" : [
+        {
+          "description" : " Ingrese el ID de la persona que desea actualizar " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " identificador de persona " ,
+          "requerido" : verdadero
+        }
+      ]
+    }
+  },
+  {
+    "título" : " Eliminar una persona " ,
+    "nombre" : " eliminar pantalla " ,
+    "botón" : " eliminar " ,
+    "contenido" : {
+      "preguntas" : [
+        {
+          "description" : " Ingrese el ID de la persona que desea eliminar " ,
+          "mensaje" : " No puede estar vacío " ,
+          "nombre" : " identificador de persona " ,
+          "requerido" : verdadero
+        }
+      ]
+    }
+  }
+]
