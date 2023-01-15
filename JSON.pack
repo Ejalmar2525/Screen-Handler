@@ -1,0 +1,13 @@
+{
+  "nombre" : " consola-manejador-arquitectura " ,
+  "versión" : " 1.1.1 " ,
+  "principal" : " index.js " ,
+  "Dependencias de desarrollo" : {},
+  "guiones" : {
+    "prueba" : " echo \" Error: no se especificó ninguna prueba \" && exit 1 "
+  },
+  "palabras clave" : [],
+  "autor" : " " ,
+  "licencia" : " ISC " ,
+  "descripción" : " "
+}
